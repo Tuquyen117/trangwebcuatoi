@@ -29,7 +29,7 @@
 - JavaScript
 
 ## Ví dụ promt
-- Bạn là một chuyên gia về UI/UX. Tạo cho tôi một portfolio đơn giản bao gồm htmi + csss. Giao điện dark hoặc white. có nút thay đổi theme ở đầu trang. Thông tin cá nhân: Trương Hà Tú Quyên, ngành nghề: Đồ họa kỹ thuật số . Công trinh đã công bố: 16 bài Q1, 2 bằng sáng chế, thích vẽ tranh, đọc truyện tranh 2d. Làm 3 dự án: 5G, 6G, và AI cho tự động hóa.
+- Bạn là một chuyên gia về UI/UX. Tạo cho tôi một portfolio đơn giản bao gồm htmi + csss. Giao điện dark hoặc white. có nút thay đổi theme ở đầu trang. Thông tin cá nhân: Trương Hà Tú Quyên, ngành nghề: Đồ họa kỹ thuật số . Hành trình 
 - Sở Thích & Đam Mê, Vẽ Tranh & Thiết Kế, Truyện Tranh 2D, Sáng Tạo Công Nghệ
  thêm những chi tiết về những này.
 - Trong phần thành thành tích, những mục nhỏ xuống dòng riêng
@@ -48,7 +48,8 @@ Chương trình AI in Graphic Design được xây dựng nhằm giúp Designer 
 hình ảnh là ps.jpg
 hình ảnh 3 khung nằm ở bên trái, thông tin ở bên phải khi được nhấn vào khung lớn.
 -Tạo 1 cái background cho người thích vẽ tranh, thích về màu sắc và phải chỉnh những lỗi nhỏ, làm 1 trang web chuyên nghiệp
-
+- chỉnh ở phần header, có , giới thiệu, thành tích, dự án, hành trình, sở thích, liên hệ, bấm vào hiện ra những tiêu đề đó.
+- Khởi Đầu Đam Mê Sáng Tạo,Dự Án Website Pizza Food,Ứng Dụng AI trong Thiết Kế Đồ Họa Hiện Đại, ghi mô tả từng cái là Bắt đầu tìm hiểu về thiết kế và công nghệ số, làm quen với các công cụ đồ họa cơ bản và phát triển niềm yêu thích với lĩnh vực sáng tạo kỹ thuật số. Thực hiện dự án thiết kế và xây dựng website về đồ ăn pizza với giao diện hiện đại, tập trung vào trải nghiệm người dùng và cách trình bày hình ảnh món ăn hấp dẫn. Khi trí tuệ nhân tạo AI phát triển mạnh mẽ, việc ứng dụng công nghệ này vào thiết kế không còn là lựa chọn mà đã trở thành một lợi thế cạnh tranh quan trọng. Chương trình AI in Graphic Design được xây dựng nhằm giúp Designer chuyên nghiệp nắm bắt xu hướng mới và ứng dụng AI để tối ưu hóa quy trình sáng tạo. Ứng dụng trí tuệ nhân tạo có thể hỗ trợ bạn ở từng giai đoạn thiết kế, từ phát triển tưởng, xây dựng concept cho đến hoàn thiện sản phẩm cuối cùng, ghi có từng khung theo từng năm là 2020,2024,2025
 ## 📌 Ghi chú
 
 - Hiện tại trang là bản demo portfolio tĩnh, chưa kết nối backend.
