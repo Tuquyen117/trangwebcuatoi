@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trương Hà Tú Quyên - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Rain Effect -->
+    <div class="rain-container" id="rainContainer"></div>
+
+    <!-- Header & Theme Toggle -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <div class="avatar-frame">
+                        <img src="VRChat.jpg" alt="Ảnh cá nhân của TQ">
+                    </div>
+                    <h1 class="logo">Portfolio Của Tú Quyên</h1>
+                </div>
+                <nav class="navbar">
+                    <a href="#about">Giới Thiệu</a>
+                    <a href="#projects">Dự Án</a>
+                    <a href="#research">Hành Trình</a>
+                    <a href="#contact">Liên Hệ</a>
+                </nav>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero page-section" id="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-copy">
+                        <h1 class="hero-title">Trương Hà Tú Quyên</h1>
+                        <p class="hero-subtitle">Sinh Viên Đồ họa Kỹ Thuật Số</p>
+                        <p class="hero-description">Có hoàng hôn rực rỡ, du lịch khám phá và vẽ tranh sáng tạo.</p>
+                        <div class="hero-tags">
+                            <span>🌅 Hoàng hôn</span>
+                            <span>✈️ Du lịch</span>
+                            <span>🎨 Vẽ tranh</span>
+                        </div>
+                    </div>
+                    <div class="hero-avatar-container">
+                        <div class="hero-avatar-ring"></div>
+                        <div class="hero-avatar">
+                            <img src="VRChat.jpg" alt="Avatar Tú Quyên">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-decor hero-decor-left"></div>
+            <div class="hero-decor hero-decor-right"></div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills page-section" id="skills">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Kỹ Năng
+                </h2>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <div class="skill-name">UI Design</div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🖌️</div>
+                        <div class="skill-name">Photoshop</div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">📱</div>
+                        <div class="skill-name">Responsive Design</div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🚀</div>
+                        <div class="skill-name">Creative Thinking</div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎯</div>
+                        <div class="skill-name">Figma</div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🧊</div>
+                        <div class="skill-name">Blender</div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🛠️</div>
+                        <div class="skill-name">Lắp ráp máy tính</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about page-section" id="about">
+            <div class="container">
+                <h2 class="section-title"> Giới Thiệu </h2>
+                <p class="about-text">
+                    Em là sinh viên ngành Đồ họa Kỹ thuật số, sinh viên trường GDU.
+                    Hiện em đang học và phát triển kỹ năng xây dựng website, thiết kế responsive và trải nghiệm người dùng. 
+                    Em thích những màu sắc như màu hồng, trắng, đen, yêu thích việc kết hợp giữa nghệ thuật và công nghệ để tạo ra những sản phẩm số sáng tạo, hiện đại và mang dấu ấn cá nhân, 
+                    motion graphics, digital illustration và phát triển giao diện web hiện đại.
+                </p>
+            </div>
+        </section>
+
+       <!-- Achievements Section -->
+        <section class="achievements page-section" id="achievements">
+            <div class="container">
+                <h2 class="section-title">Thành Tích</h2>
+                <div class="achievements-list">
+                    <div class="achievement-item">
+                        <span class="achievement-icon">✓</span>
+                        <span class="achievement-text">Hoàn thành nhiều dự án thiết kế đồ họa và giao diện số sáng tạo</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-icon">✓</span>
+                        <span class="achievement-text">Có kinh nghiệm sử dụng AI trong thiết kế và phát triển sản phẩm số</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-icon">✓</span>
+                        <span class="achievement-text">Tham gia các dự án thiết kế 2D, 3D và animation</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-icon">✓</span>
+                        <span class="achievement-text">Kỹ năng làm việc nhóm và phát triển ý tưởng sáng tạo khá ổn</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-icon">✓</span>
+                        <span class="achievement-text">Chủ động học hỏi và cập nhật xu hướng thiết kế mới</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+        
+        <!-- Projects Section -->
+        <section class="projects page-section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Dự Án Chính</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="game3d">
+                        <div class="project-image-wrapper">
+                            <img src="game3d.jpg" alt="Thiết kế animation game 3D" class="project-image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Thiết kế animation game 3D</h3>
+                            <p class="project-description">
+                                Thiết kế giao diện game với phong cách pixel art động và lôi cuốn người chơi.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Game 3D</span>
+                                <span class="tag">Animation</span>
+                                <span class="tag">Pixel</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="Vẽ Tranh">
+                        <div class="project-image-wrapper">
+                            <img src="art.jpg" alt="Vẽ Tranh" class="project-image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Vẽ Tranh & Sáng Tạo Nghệ Thuật</h3>
+                            <p class="project-description">
+                                Thường xuyên luyện tập phác thảo, phối màu và xây dựng ý tưởng hình ảnh nhằm nâng cao tư duy thẩm mỹ trong thiết kế đồ họa.
+                                Từng tham gia cuộc thi vẽ tranh tại Ho Chi Minh City, qua đó học hỏi thêm về cách truyền tải thông điệp và cảm xúc qua hình ảnh nghệ thuật. Việc vẽ tranh không chỉ là sở thích mà còn giúp phát triển khả năng quan sát, sáng tạo và tư duy bố cục trong lĩnh vực đồ họa kỹ thuật số.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Thiết Kế</span>
+                                <span class="tag">Ý Tưởng</span>
+                                <span class="tag">Bố cục - Màu sắc</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+       <section class="research page-section" id="research">
+            <div class="container">
+                <h2 class="section-title">Hành Trình</h2>
+                <div class="timeline">
+                    <!-- 2020 -->
+                    <div class="timeline-year">
+                        <h3 class="timeline-year-title">2020</h3>
+                        <div class="timeline-items">
+                            <div class="timeline-item" data-timeline="2020" onclick="openTimelineModal('2020')">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>Khởi Đầu Đam Mê Sáng Tạo</h4>
+                                    <p class="timeline-description">Bắt đầu tìm hiểu về thiết kế và công nghệ số, làm quen với các công cụ đồ họa cơ bản và phát triển niềm yêu thích với lĩnh vực sáng tạo kỹ thuật số.</p>
+                                    <p class="timeline-role"><strong>Vai trò:</strong> Hiểu biết về Code, UI/UX.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2024 -->
+                    <div class="timeline-year">
+                        <h3 class="timeline-year-title">2024</h3>
+                        <div class="timeline-items">
+                            <div class="timeline-item" data-timeline="2024" onclick="openTimelineModal('2024')">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>Dự Án Website Pizza Food</h4>
+                                    <p class="timeline-description">Thực hiện dự án thiết kế và xây dựng website về đồ ăn pizza với giao diện hiện đại, tập trung vào trải nghiệm người dùng và cách trình bày hình ảnh món ăn hấp dẫn.</p>
+                                    <p class="timeline-role"><strong>Vai trò:</strong> Web Design, UI/UX, Food Brand Design.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2025 -->
+                    <div class="timeline-year">
+                        <h3 class="timeline-year-title">2025</h3>
+                        <div class="timeline-items">
+                            <div class="timeline-item" data-timeline="2025" onclick="openTimelineModal('2025')">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>Ứng Dụng AI trong Thiết Kế Đồ Họa Hiện Đại</h4>
+                                    <p class="timeline-description">Khi trí tuệ nhân tạo AI phát triển mạnh mẽ, việc ứng dụng công nghệ này vào thiết kế không còn là lựa chọn mà đã trở thành một lợi thế cạnh tranh quan trọng. Chương trình AI in Graphic Design được xây dựng nhằm giúp Designer chuyên nghiệp nắm bắt xu hướng mới và ứng dụng AI để tối ưu hóa quy trình sáng tạo. Ứng dụng trí tuệ nhân tạo có thể hỗ trợ bạn ở từng giai đoạn thiết kế, từ phát triển tưởng, xây dựng concept cho đến hoàn thiện sản phẩm cuối cùng.</p>
+                                    <p class="timeline-role"><strong>Vai trò:</strong> Design, UI/UX, 3D. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ...existing code... -->
+
+        <!-- sở thích -->
+        <section class="interests page-section" id="interests">
+            <div class="container">
+                <h2 class="section-title">Sở Thích & Đam Mê</h2>
+                <div class="interests-grid">
+                    <div class="interest-item" data-interest="tranh">
+                        <div class="interest-image-wrapper">
+                            <img src="tranh.jpg" alt="Vẽ Tranh & Thiết Kế" class="interest-image">
+                        </div>
+                        <span class="interest-icon">🎨</span>
+                        <span class="interest-text">Vẽ Tranh & Thiết Kế</span>
+                    </div>
+                    <div class="interest-item" data-interest="truyen">
+                        <div class="interest-image-wrapper">
+                            <img src="truyen.jpg" alt="Truyện Tranh 2D" class="interest-image">
+                        </div>
+                        <span class="interest-icon">📚</span>
+                        <span class="interest-text">Truyện Tranh 2D</span>
+                    </div>
+                    <div class="interest-item" data-interest="it">
+                        <div class="interest-image-wrapper">
+                            <img src="it.webp" alt="Sáng Tạo Công Nghệ" class="interest-image">
+                        </div>
+                        <span class="interest-icon">💡</span>
+                        <span class="interest-text">Sáng Tạo Công Nghệ</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact page-section" id="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2 class="section-title"> Hợp tác cùng nhau không nào? </h2>
+                        <p class="contact-description">
+                            Gửi tin nhắn để kết nối, cộng tác và tạo ra trải nghiệm kỹ thuật số ấn tượng.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" title="Behance">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M6.938 4.503H0V19.497h6.938c3.946.001 6.438-1.666 6.438-5.399 0-2.926-1.779-4.179-3.696-4.444v-.224c1.669-.632 3.15-1.901 3.15-4.175C12.83 6.28 10.655 4.503 6.938 4.503zm.806 7.315h-3.72v-4.584h3.72c1.711 0 2.771.976 2.771 2.292.001 1.32-1.06 2.292-2.771 2.292zm0 8.027H3.224v-4.878h4.52c1.959 0 3.12 1.035 3.12 2.439.001 1.404-1.161 2.439-3.12 2.439zM17.356 4.503c-4.208 0-7.326 3.153-7.326 7.423 0 4.269 3.118 7.423 7.326 7.423 4.208 0 7.326-3.154 7.326-7.423 0-4.27-3.118-7.423-7.326-7.423zm0 12.102c-2.271 0-3.706-1.635-3.706-4.679 0-3.045 1.434-4.68 3.706-4.68s3.707 1.635 3.707 4.68c0 3.044-1.436 4.679-3.707 4.679z"/>
+                                </svg>
+                                Behance
+                            </a>
+                            <a href="#" class="social-link" title="Dribbble">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 24C5.372 24 0 18.628 0 12S5.372 0 12 0s12 5.372 12 12-5.372 12-12 12zm8.5-13c0-.276-.028-.55-.08-.82-4.514 1.682-6.066 7.706-6.066 7.706 2.208-1.52 4.718-2.768 7.46-3.184.382-1.202.686-2.488.686-3.702zm-8.5-9.5c2.754 0 5.42.866 7.544 2.5-.988 1.688-2.374 3.178-4.096 4.188-1.98-1.584-3.598-3.62-4.552-6.008-.536-.404-1.08-.772-1.632-1.088A9.502 9.502 0 013.5 11.5c0-2.754.866-5.42 2.5-7.544 1.688.988 3.178 2.374 4.188 4.096.284.1.568.196.84.304.96.284 1.876.672 2.772 1.148z"/>
+                                </svg>
+                                Dribbble
+                            </a>
+                            <a href="#" class="social-link" title="LinkedIn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                                </svg>
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="contactName">Tên của bạn</label>
+                                <input type="text" id="contactName" name="name" placeholder="Nguyễn Văn ABC" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactEmail">Email</label>
+                                <input type="email" id="contactEmail" name="email" placeholder="tên@email.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactMessage">Tin nhắn</label>
+                                <textarea id="contactMessage" name="message" placeholder="Nhập tin nhắn của bạn..." rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">Gửi liên hệ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Detail Modals -->
+    <div class="modal timeline-detail-modal" id="timelineModal">
+        <div class="modal-content">
+            <div class="modal-image-wrapper">
+                <img id="timelineModalImage" src="" alt="Timeline detail" class="modal-image">
+            </div>
+            <div class="modal-info">
+                <h2 id="timelineModalTitle"></h2>
+                <p id="timelineModalDescription"></p>
+                <div class="modal-role" id="timelineModalRole"></div>
+            </div>
+            <button class="modal-close" onclick="closeModal('timelineModal')">×</button>
+        </div>
+    </div>
+
+    <!-- Project Detail Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <div class="modal-image-wrapper">
+                <img id="projectModalImage" src="" alt="Project detail" class="modal-image">
+            </div>
+            <div class="modal-info">
+                <h2 id="projectModalTitle"></h2>
+                <p id="projectModalDescription"></p>
+                <div id="projectModalTags"></div>
+            </div>
+            <button class="modal-close" onclick="closeModal('projectModal')">×</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Trương Hà Tú Quyên. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Theme Toggle Functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        
+        // Check for saved theme preference or default to light
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', savedTheme);
+        
+        // Theme toggle event listener
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Scroll reveal animation (Apple-like)
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for scroll animation
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('scroll-reveal');
+            observer.observe(section);
+        });
+
+        // Card hover animation
+        document.querySelectorAll('.achievement-card, .project-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-15px) scale(1.02)';
+            });
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Parallax effect on hero section
+        const hero = document.querySelector('.hero');
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.pageYOffset;
+            if (scrollPosition < window.innerHeight) {
+                hero.style.backgroundPosition = `0px ${scrollPosition * 0.5}px`;
+            }
+        });
+
+        // thông tin liên hệ
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.getElementById('contactName').value;
+                const email = document.getElementById('contactEmail').value;
+                const message = document.getElementById('contactMessage').value;
+                
+                // Basic validation
+                if (!name || !email || !message) {
+                    alert('Vui lòng điền tất cả các trường!');
+                    return;
+                }
+                
+                // Email validation
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    alert('Vui lòng nhập email hợp lệ!');
+                    return;
+                }
+                
+                // Show success message
+                alert(`Cảm ơn ${name}! Tôi sẽ liên hệ với bạn sớm.\n\nEmail: ${email}\nTin nhắn đã được ghi nhận.`);
+                
+                // Reset form
+                this.reset();
+            });
+        }
+
+        // Timeline Modal Data
+        const timelineData = {
+            '2020': {
+                title: 'Khởi Đầu Đam Mê Sáng Tạo',
+                image: 'code.png',
+                description: 'Bắt đầu tìm hiểu về thiết kế và công nghệ số, làm quen với các công cụ đồ họa cơ bản và phát triển niềm yêu thích với lĩnh vực sáng tạo kỹ thuật số.',
+                role: '<strong>Vai trò:</strong> Design Learning, UI Exploration, Creative Development.'
+            },
+            '2024': {
+                title: 'Dự Án Website Pizza Food',
+                image: 'giới-thiệu.jpg',
+                description: 'Thực hiện dự án thiết kế và xây dựng website về đồ ăn pizza với giao diện hiện đại, tập trung vào trải nghiệm người dùng và cách trình bày hình ảnh món ăn hấp dẫn.',
+                role: '<strong>Vai trò:</strong> Web Design, UI/UX, Food Brand Design.'
+            },
+            '2025': {
+                title: 'Ứng Dụng AI trong Thiết Kế Đồ Họa Hiện Đại',
+                image: 'hinh3d.png',
+                description: 'Khi trí tuệ nhân tạo AI phát triển mạnh mẽ, việc ứng dụng công nghệ này vào thiết kế không còn là lựa chọn mà đã trở thành một lợi thế cạnh tranh quan trọng. Chương trình AI in Graphic Design được xây dựng nhằm giúp Designer chuyên nghiệp nắm bắt xu hướng mới và ứng dụng AI để tối ưu hóa quy trình sáng tạo tạo. Ứng dụng trí tuệ nhân tạo có thể hỗ trợ bạn ở từng giai đoạn thiết kế, từ phát triển tưởng, xây dựng concept cho đến hoàn thiện sản phẩm cuối cùng.',
+                role: '<strong>Vai trò:</strong> Design Strategy, AI Integration, Creative Direction.'
+            }
+        };
+
+        // Project Modal Data
+        const projectData = {
+            'game3d': {
+                title: 'Thiết kế animation game 3D',
+                image: 'game3d.jpg',
+                description: 'Thiết kế giao diện game với phong cách pixel art động và lôi cuốn người chơi.',
+                tags: ['Game 3D', 'Animation', 'Pixel']
+            },
+            'Vẽ Tranh': {
+                title: 'Vẽ Tranh & Sáng Tạo Nghệ Thuật',
+                image: 'art.jpg',
+                description: 'Thường xuyên luyện tập phác thảo, phối màu và xây dựng ý tưởng hình ảnh nhằm nâng cao tư duy thẩm mỹ trong thiết kế đồ họa. Từng tham gia cuộc thi vẽ tranh tại Ho Chi Minh City, qua đó học hỏi thêm về cách truyền tải thông điệp và cảm xúc qua hình ảnh nghệ thuật. Việc vẽ tranh không chỉ là sở thích mà còn giúp phát triển khả năng quan sát, sáng tạo và tư duy bố cục trong lĩnh vực đồ họa kỹ thuật số.',
+                tags: ['Thiết Kế', 'Ý Tưởng', 'Bố cục - Màu sắc']
+            },
+            'greenbag': {
+                title: 'GreenBag - Thiết Kế Túi Giấy Thân Thiện Môi Trường',
+                image: 'tui giay.jpg',
+                description: 'Thiết kế bộ nhận diện và mẫu túi giấy mang phong cách hiện đại, tối giản và thân thiện môi trường.',
+                tags: ['Thiết Kế', 'Ý Tưởng', 'Bố cục - Màu sắc']
+            }
+        };
+
+        // Modal Functions
+        function openTimelineModal(year) {
+            const data = timelineData[year];
+            if (!data) return;
+
+            document.getElementById('timelineModalTitle').textContent = data.title;
+            document.getElementById('timelineModalImage').src = data.image;
+            document.getElementById('timelineModalDescription').textContent = data.description;
+            document.getElementById('timelineModalRole').innerHTML = data.role;
+            document.getElementById('timelineModal').classList.add('active');
+        }
+
+        function openProjectModal(projectId) {
+            const data = projectData[projectId];
+            if (!data) return;
+
+            document.getElementById('projectModalTitle').textContent = data.title;
+            document.getElementById('projectModalImage').src = data.image;
+            document.getElementById('projectModalDescription').textContent = data.description;
+            
+            const tagsHtml = data.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+            document.getElementById('projectModalTags').innerHTML = tagsHtml;
+            
+            document.getElementById('projectModal').classList.add('active');
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+        }
+
+        // Close modal when clicking outside
+        document.querySelectorAll('.modal').forEach(modal => {
+            modal.addEventListener('click', function(e) {
+                if (e.target === this) {
+                    this.classList.remove('active');
+                }
+            });
+        });
+
+        // Add click handlers to project cards
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('click', function() {
+                const projectId = this.getAttribute('data-project');
+                openProjectModal(projectId);
+            });
+        });
+
+        // Rain Effect
+        function createRain() {
+            const rainContainer = document.getElementById('rainContainer');
+            
+            function createRaindrop() {
+                const raindrop = document.createElement('div');
+                raindrop.className = 'raindrop';
+                
+                const size = Math.random() * 6 + 4; // 4-10px
+                const duration = Math.random() * 10 + 8; // 8-18s
+                const delay = Math.random() * 2; // 0-2s
+                const leftPosition = Math.random() * 100; // 0-100%
+                
+                raindrop.style.width = size + 'px';
+                raindrop.style.height = size + 'px';
+                raindrop.style.left = leftPosition + '%';
+                raindrop.style.animationName = 'fall';
+                raindrop.style.animationDuration = duration + 's';
+                raindrop.style.animationDelay = delay + 's';
+                raindrop.style.animationTimingFunction = 'linear';
+                raindrop.style.animationFillMode = 'forwards';
+                
+                rainContainer.appendChild(raindrop);
+                
+                // Remove raindrop after animation ends
+                setTimeout(() => {
+                    raindrop.remove();
+                }, (duration + delay) * 1000);
+            }
+            
+            // Create raindrops continuously
+            setInterval(createRaindrop, 100);
+            
+            // Create initial raindrops
+            for (let i = 0; i < 50; i++) {
+                setTimeout(createRaindrop, i * 100);
+            }
+        }
+        
+        // Start rain effect when page loads
+        window.addEventListener('load', createRain);
+    </script>
+</body>
+</html>
